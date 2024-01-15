@@ -1,4 +1,54 @@
 * {
   /* background-color: lightskyblue; */
-  background-color: white;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  margin: 30px auto;
+  width: 350px;
+}
+
+.income-expense-container {
+  /* background-color: antiquewhite; */
+  display: flex;
+  text-transform: uppercase;
+  border: 0.4px black solid;
+  width: 300px;
+}
+
+#money-plus {
+  color: green;
+  margin-right: 50px;
+  align-content: center;
+
+}
+
+#money-minus {
+  color: red;
+  align-content: center;
+
+
+}
+
+.your-balance {
+  text-transform: uppercase;
+  margin-bottom: -25px;
+}
+
+.income, .expense {
+  margin-bottom: -20px;
+  margin-left: 10px;
+  align-content: center;
+
 }
